@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".field input"),t=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";return e[0].toUpperCase()+e.slice(1)},n=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1?arguments[1]:void 0,n=document.createElement("label");return n.classList.add("field-label"),n.textContent=e.toUpperCase(),n.dataset.for=t,n};e.forEach(function(e){var a=n(e.name,e.id);e.parentNode.prepend(a),e.placeholder=t(e.name)});
+//# sourceMappingURL=index.c7201fd8.js.map
